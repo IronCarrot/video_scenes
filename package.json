@@ -1,0 +1,30 @@
+{
+  "name": "video_scenes",
+  "version": "1.0.0",
+  "description": "This project provide API endpoint on localhost:3000/video_scenes/:videoID that return a JSON that contains people and scenes they appeared in the video.",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IronCarrot/video_scenes.git"
+  },
+  "author": "Dianqi Ji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IronCarrot/video_scenes/issues"
+  },
+  "homepage": "https://github.com/IronCarrot/video_scenes#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "matroid": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
